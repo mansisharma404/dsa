@@ -1,0 +1,15 @@
+int a = 10;
+int *p = &a;
+// OR
+int *p;
+p = &a;
+We can declare and initialize pointer at same step or in multiple line.
+
+
+int a = 10;
+int &p = a; // It is correct
+// but
+int &p;
+p = a; // It is incorrect as we should declare and initialize references at single step
+
+pointer can be reassigned as references cant be reassigned
